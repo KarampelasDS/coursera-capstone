@@ -19,11 +19,11 @@
     font-weight: bold;
   }
   
-  span {
+  .HeroSpan {
     color: var(--white);
   }
   
-  p {
+  .HeroParagraph {
     color: var(--white);
     margin-top: 2rem;
     margin-bottom: 2rem;

@@ -1,0 +1,18 @@
+.SpecialsSection{
+    display: flex;
+    flex-direction: column;
+    margin-top:2rem;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.SpecialsTitle{
+    color: var(--black);
+    margin-bottom: 2rem;
+}
+
+.SpecialsHolder{
+    display: flex;
+    flex-wrap: wrap;
+}
+

@@ -1,0 +1,31 @@
+.SpecialCard{
+    background-color: var(--gray);
+    text-align: left;
+    width: 375px;
+    color: var(--black);
+    border-radius: 16px;
+    padding: 0px 1rem;
+    margin-top: 2rem;
+}
+
+h3{
+    color: var(--black);
+}
+
+.SpecialDishImage{
+    display: flex;
+    justify-content: center;
+}
+
+.SpecialDishImage img{
+    width: 375px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 16px;
+}
+
+.SpecialHeader{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
