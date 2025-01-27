@@ -1,0 +1,56 @@
+.HeroSection {
+    padding: 2rem;
+    background-color: var(--dark-green);
+  }
+  
+  .mainSection {
+    padding: 2rem 4rem;
+    font-size: 1.5rem;
+  }
+  
+  .HeroImage {
+    border-radius: 16px;
+    aspect-ratio: 2 / 2;
+    border:2px solid var(--white);
+  }
+  
+  h1 {
+    color: var(--lemon-yellow);
+    font-weight: bold;
+  }
+  
+  span {
+    color: var(--white);
+  }
+  
+  p {
+    color: var(--white);
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  button {
+    background-color: var(--lemon-yellow);
+    color: var(--black);
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  
+
+  @media (max-width: 767px) {
+  
+    .HeroImage {
+        aspect-ratio: 4 / 3;
+        width: 100%;
+      }
+  
+    .mainSection {
+      text-align: center;
+      font-size: 1.2rem;
+    }
+  }
+  

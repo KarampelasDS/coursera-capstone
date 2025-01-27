@@ -1,0 +1,47 @@
+.Navbar{
+    background-color: var(--pure-white);
+    margin-right: 2rem;
+    width: 95%;
+    font-size: 1.2rem;
+  }
+  
+  .Navbar ul{
+    list-style: none;
+    display: flex;
+    color: var(--dark-green);
+    margin:1rem 2rem;
+    justify-content: space-between;
+    font-weight: bold;
+    align-items: center;
+  }
+  
+  #hamburger{
+    display: none;
+  }
+  
+  .HeroSection{
+    background-color: var(--dark-green);
+  }
+  
+  .ImageContainer{
+    display: flex;
+    justify-content: center;
+  }
+  
+  @media only screen and (max-width: 767px) {
+    .Navbar li{
+      display: none;
+    }
+  
+    #logo{
+      display: flex;
+    }
+  
+    #hamburger{
+      display: flex;
+    }
+  
+    .Navbar{
+      justify-content: space-between;
+    }
+  }
