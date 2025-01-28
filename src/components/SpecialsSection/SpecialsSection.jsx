@@ -41,7 +41,7 @@ export default function SpecialsSection() {
           <h1 className="SpecialsTitle">This week's specials!</h1>
           <Button>Online Menu</Button>
       </div>
-      <div className="row justify-content-center">
+      <div className="row">
         <div className="col"></div>
         <div className="SpecialsContainer">
           <Slider {...settings}>

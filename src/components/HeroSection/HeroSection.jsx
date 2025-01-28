@@ -6,8 +6,8 @@ export default function HeroSection() {
   return (
     <main>
       <section className="HeroSection container-fluid">
-        <div className="row">
-          <div className="col-lg-8 col-md-6 mainSection">
+        <div className="HeroRow row">
+          <div className="col-lg-6 col-md-6 mainSection">
             <h1>Little Lemon</h1>
             <span className="HeroSpan">Chicago</span>
             <p className="HeroParagraph">

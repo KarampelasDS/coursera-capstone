@@ -14,6 +14,10 @@
     border:2px solid var(--white);
     margin-right:2rem;
   }
+
+  .HeroRow{
+    display: flex;
+  }
   
   h1 {
     color: var(--lemon-yellow);

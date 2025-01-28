@@ -10,10 +10,12 @@
 
 .Specialh3{
     color: var(--black);
+    font-weight: bold;
 }
 
 .SpecialPrice{
     color: var(--peach);
+    font-weight: bold;
 }
 
 .SpecialDishImage{
