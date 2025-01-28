@@ -1,0 +1,29 @@
+.ReviewCard{
+    display: inline-flex;
+    background-color: var(--gray);
+    flex-direction: column;
+    border-radius: 16px;
+    padding: 0.3rem 2rem;
+    width:300px;
+    height:auto;
+}
+
+.ReviewStars{
+    margin-top:0.5rem;
+    display: inline-flex;
+    gap: 0.5rem;
+}
+
+.ReviewUser{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin: 2rem 0rem;
+}
+
+.ReviewText{
+    font-size: 1.5rem;
+    text-align: left;
+    text-wrap: pretty;
+    margin-bottom:1rem;
+}

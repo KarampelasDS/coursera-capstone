@@ -18,6 +18,14 @@ margin-bottom: 2rem;
     align-items: center;
 }
 
+.SpecialsContainer>.slick-slider>.slick-next:nth-of-type(2):before {
+    color:var(--dark-green);
+}
+
+.SpecialsContainer>.slick-slider>.slick-prev:nth-of-type(1):before {
+    color:var(--dark-green);
+}
+
 @media only screen and (max-width: 960px) {
     .SpecialsHeader>button{
         font-size: 1.2rem;

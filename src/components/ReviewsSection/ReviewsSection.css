@@ -1,0 +1,48 @@
+.ReviewsSection{
+    background-color: var(--dark-green);
+    margin-top: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.ReviewsTitle{
+    margin-bottom:2rem;
+    text-align: center;
+    color: var(--white);
+}
+
+.Reviews{
+    align-items: center;
+    justify-content: space-around;
+}
+
+.slick-slide {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+}
+
+.slick-prev{
+    background-color: transparent;
+    height: 40px;
+    width: 40px;
+    outline-color: black;
+    z-index: 9;
+}
+
+.slick-next{
+    background-color: transparent;
+    height: 40px;
+    width: 40px;
+    outline-color: black;
+    z-index: 9;
+}
+
+.Reviews>.slick-slider>.slick-next{
+    right:25px;
+}
+
+
+.Reviews>.slick-slider>.slick-prev{
+    left:25px;
+}

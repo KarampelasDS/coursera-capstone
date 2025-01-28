@@ -1,0 +1,53 @@
+.html{
+    overflow-x: hidden;
+}
+
+.InfoTitle{
+    color: var(--black)
+}
+
+.InfoCity{
+    margin-top:1.5rem;
+    font-size: 2rem;
+}
+
+.InfoParagraph{
+    font-size: 1.5rem;
+    margin-top: 3rem;
+    max-width: 350px;
+}
+
+.InfoSection{
+    margin-top: 3rem;
+    margin-bottom:3rem;
+}
+
+.InfoPhotos{
+    display:flex;
+    margin-top: 3rem;
+}
+
+.InfoPhoto2{
+    position: relative;
+    right: 100px;
+    bottom: 50px;
+    z-index: 3;
+}
+
+@media only screen and (max-width: 992px) {
+    .InfoSection{
+        text-align: center;
+        align-content: center;
+    }
+    .InfoParagraph{
+        text-align: center;
+        margin-left: auto;
+        max-width: 700px;
+    }
+    .InfoPhotos{
+        margin-top: 6rem;
+        justify-content: center;
+        margin-left: 3rem;
+        transform: scale(0.75);
+    }
+}
