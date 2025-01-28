@@ -11,7 +11,7 @@ function App() {
   return (
     <>
      <Navbar/>
-     <BrowserRouter>
+     <BrowserRouter basename='/coursera-capstone'>
       <Routes>
         <Route path="/" element={<Home />}/>
       </Routes>
