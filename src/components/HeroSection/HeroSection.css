@@ -12,6 +12,7 @@
     border-radius: 16px;
     aspect-ratio: 2 / 2;
     border:2px solid var(--white);
+    margin-right:2rem;
   }
   
   h1 {
@@ -27,25 +28,27 @@
     color: var(--white);
     margin-top: 2rem;
     margin-bottom: 2rem;
+    text-wrap:pretty;
   }
   
-  button {
-    background-color: var(--lemon-yellow);
-    color: var(--black);
-    border: none;
-    padding: 0.5rem 1rem;
-    border-radius: 8px;
-    cursor: pointer;
-    font-weight: bold;
-    transition: background-color 0.3s;
+
+  @media (max-width: 1080px) {
+    .HeroParagraph{
+      font-size: 1rem;
+    }
+
+    .HeroImage{
+      margin-right: 3rem;
+    }
   }
-  
+
 
   @media (max-width: 767px) {
   
     .HeroImage {
         aspect-ratio: 4 / 3;
         width: 100%;
+        margin-right: 0;
       }
   
     .mainSection {

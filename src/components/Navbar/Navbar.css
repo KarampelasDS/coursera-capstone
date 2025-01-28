@@ -9,7 +9,7 @@
     list-style: none;
     display: flex;
     color: var(--dark-green);
-    margin:1rem 2rem;
+    margin:1rem 8rem;
     justify-content: space-between;
     font-weight: bold;
     align-items: center;
@@ -28,7 +28,20 @@
     justify-content: center;
   }
   
+  
+  @media only screen and (max-width: 960px) {
+    .Navbar>ul{
+      margin:1rem 2rem;
+    }
+  }
+
+
   @media only screen and (max-width: 767px) {
+
+    .Navbar>ul{
+      margin:1rem 2rem;
+    }
+
     .Navbar li{
       display: none;
     }

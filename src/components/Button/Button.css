@@ -1,9 +1,11 @@
 .Button {
-    background-color: var(--lemon-yellow);
-    color: var(--black);
-    border: none;
-    padding: 0.5rem 1rem;
-    border-radius: 8px;
-    cursor: pointer;
-    font-weight: bold;
+  background-color: var(--lemon-yellow);
+  color: var(--black);
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1.5rem;
+  text-wrap: wrap;
   }

@@ -9,8 +9,8 @@ export default function SpecialCard(props) {
                 <img src={props.img}/>
             </div>
             <div className="SpecialHeader">
-                <h3>{props.title}</h3>
-                <h3>{props.price}</h3>
+                <h3 className="Specialh3">{props.title}</h3>
+                <h3 className="SpecialPrice">{props.price}</h3>
             </div>
             <div className="SpecialDescription">
                 <p>{props.description}</p>

@@ -7,7 +7,7 @@ export default function HeroSection() {
     <main>
       <section className="HeroSection container-fluid">
         <div className="row">
-          <div className="col-lg-6 col-md-6 mainSection">
+          <div className="col-lg-8 col-md-6 mainSection">
             <h1>Little Lemon</h1>
             <span className="HeroSpan">Chicago</span>
             <p className="HeroParagraph">
@@ -18,7 +18,7 @@ export default function HeroSection() {
             </p>
             <Button>Reserve a Table</Button>
           </div>
-          <div className="col-lg-6 col-md-6">
+          <div className="col-lg-4 col-md-6">
             <div className="ImageContainer">
               <img className="HeroImage" src={heroImage} width={400} />
             </div>

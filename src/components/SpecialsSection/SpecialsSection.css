@@ -1,18 +1,34 @@
-.SpecialsSection{
-    display: flex;
-    flex-direction: column;
-    margin-top:2rem;
-    text-align: center;
-    font-size: 1.5rem;
-}
-
 .SpecialsTitle{
-    color: var(--black);
-    margin-bottom: 2rem;
+color: var(--black);
+margin-bottom: 2rem;
 }
 
-.SpecialsHolder{
+
+.SpecialsHeader{
     display: flex;
-    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem 0rem;
+
 }
 
+.slick-slide {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (max-width: 960px) {
+    .SpecialsHeader>button{
+        font-size: 1.2rem;
+    }
+    .SpecialsHeader>h1{
+        font-size: 1.2rem;
+    }
+
+    .SpecialsTitle
+    {
+        margin: 0;
+    }
+    
+}
