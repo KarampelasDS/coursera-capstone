@@ -18,3 +18,33 @@
     margin-right: 6rem;
     color: var(--white)
 }
+
+@media only screen and (max-width:1200px){
+    .FooterSection{
+        margin-left: 3rem;
+        margin-right: 3rem;
+    }
+}
+
+@media only screen and (max-width:860px){
+    .FooterSection{
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+}
+
+@media only screen and (max-width:860px){
+    .Footer{
+        flex-direction: column;
+        
+    }
+
+    .FooterSection{
+        margin-top: 2rem;
+        align-self: center;
+    }
+
+    .FooterImage{
+        align-self: center;
+    }
+}

@@ -23,7 +23,7 @@ a{
   color:inherit;
 }
 
-html{
+html,body{
   font-family: Poppins, "Segoe UI", sans-serif;
   overflow-x:hidden;
 }

@@ -5,7 +5,7 @@ export default function Footer(){
     
     return(
         <div className="Footer">
-            <img src={WorkerFooter}/>
+            <img className="FooterImage" src={WorkerFooter}/>
             <div className="FooterSection">
                 <h6 className="FooterTitle">Doormat <br/> Navigation</h6>
                 <a href="#">Home</a>
