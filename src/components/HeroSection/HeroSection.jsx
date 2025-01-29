@@ -12,7 +12,7 @@ export default function HeroSection(props) {
             <p className="HeroParagraph">
               {props.text}
             </p>
-            {props.button ? <Button>{props.buttonText}</Button> : null}
+            {props.button ? <Button link="/reservations">{props.buttonText}</Button> : null}
           </div>
           <div className="col-lg-4 col-md-6">
             <div className="ImageContainer">

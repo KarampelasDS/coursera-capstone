@@ -5,8 +5,13 @@ import SpecialsSection from "../components/SpecialsSection/SpecialsSection";
 import ReviewsSection from "../components/ReviewsSection/ReviewsSection"
 import InfoSection from "../components/InfoSection/InfoSection"
 import Footer from "../components/Footer/Footer"
+import {useEffect} from "react"
 
 export default function Home() {
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+      }, []);
 
     return(
         <>

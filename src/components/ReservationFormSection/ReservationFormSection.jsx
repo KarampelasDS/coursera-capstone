@@ -20,7 +20,7 @@ export default function ReservationFormSection() {
         FullName: Yup.string().required('Full Name is required'),
         SeatSelection: Yup.string().required('Seat Selection is required'),
         Date: Yup.string().required("Date is required"),
-        NumberOfGuests: Yup.number().min(1, "Number of Guests must be at least 1").required("Number of Guests is required"),
+        NumberOfGuests: Yup.number().min(1, "Must be at least 1").required("Number of Guests is required"),
         Email: Yup.string().email("Invalid email address").required("Email is required"),
         PhoneNumber: Yup.string().min(10, 'Must be at least 10 digits').required("Phone Number is required"),
     })

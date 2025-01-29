@@ -4,9 +4,14 @@ import HeroSection from "../components/HeroSection/HeroSection"
 import ReservationFormSection from "../components/ReservationFormSection/ReservationFormSection"
 import InfoSection from "../components/InfoSection/InfoSection"
 import Footer from "../components/Footer/Footer"
+import {useEffect} from "react"
 
 
 export default function Reservations() {
+
+    useEffect(()=>{
+        window.scrollTo(0,0);
+    },[]);
 
     return(
         <>

@@ -1,0 +1,21 @@
+.Error404{
+    background-color: var(--dark-green);
+    color: var(--white);
+    text-align: center;
+}
+
+.LinksContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:20px;
+    text-decoration: underline;
+}
+
+.Header404{
+    font-size: 5rem;
+}
+
+.Paragraph404{
+    margin: 1rem 0rem;
+}

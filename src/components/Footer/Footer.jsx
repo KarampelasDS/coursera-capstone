@@ -1,5 +1,6 @@
 import "./Footer.css"
 import WorkerFooter from "../../assets/WorkerFooter.png"
+import {Link} from "react-router-dom"
 
 export default function Footer(props){
     
@@ -10,24 +11,24 @@ export default function Footer(props){
 
 
                 <h6 className="FooterTitle">Doormat <br/> Navigation</h6>
-                <a href="#">Home</a>
-                <a href="#">About</a>
-                <a href="#">Menu</a>
-                <a href="#">Reservations</a>
-                <a href="#">Order Online</a>
-                <a href="#">Login</a>
+                <Link to="/">Home</Link>
+                <Link to="/about">About</Link>
+                <Link to="/menu">Menu</Link>
+                <Link to="/reservations">Reservations</Link>
+                <Link to="/order">Order Online</Link>
+                <Link to="/login">Login</Link>
             </div>
             <div className={props.dark ? "FooterSection" : "FooterSectionLight"}>
                 <h6 className="FooterTitle">Contact <br/><br/></h6>
-                <a href="#">Address</a>
-                <a href="#">Phone Number</a>
-                <a href="#">Email</a>
+                <Link to="/address">Address</Link>
+                <Link to="/contact">Phone Number</Link>
+                <Link to="/email">Email</Link>
             </div>
             <div className={props.dark ? "FooterSection" : "FooterSectionLight"}>
                 <h6 className="FooterTitle">Social Media Links <br/><br/></h6>
-                <a href="#">Address</a>
-                <a href="#">Phone Number</a>
-                <a href="#">Email</a>
+                <Link to="/address">Address</Link>
+                <Link to="/contact">Phone Number</Link>
+                <Link to="/email">Email</Link>
             </div>
 
 
