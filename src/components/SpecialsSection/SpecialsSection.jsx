@@ -51,20 +51,20 @@ export default function SpecialsSection() {
               img={GreekSalad}
               title="Greek Salad"
               price="$12.99"
-              description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+              description="A classic Mediterranean dish packed with fresh cucumbers, ripe tomatoes, red onions, Kalamata olives, and a generous sprinkle of feta cheese.This refreshing salad is a perfect way to start your meal."
               />
             <SpecialCard
               img={Bruchetta}
-              title="Bruchetta"
+              title="Bruschetta"
               price="$7.99"
-              description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+              description="Crisp toasted bread topped with a mix of diced tomatoes, garlic, basil, and a drizzle of balsamic glaze. This simple yet extremely delicious appetizer is a favorite here at Little Lemon."
               />
 
             <SpecialCard
               img={LemonDessert}
               title="Lemon Dessert"
               price="$9.99"
-              description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+              description="A light, creamy lemon mousse with a hint of vanilla and a touch of sweetness. Topped with whipped cream and a zest of lemon peel, it’s the perfect ending to your Mediterranean dining experience."
               />
           </Slider>
         </div>

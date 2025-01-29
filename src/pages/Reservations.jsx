@@ -15,12 +15,9 @@ export default function Reservations() {
 
     return(
         <>
-            <HeroSection Title="Little Lemon" subTitle="Chicago" text="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad, sunt
-              quia voluptatibus, ratione maiores libero ea illum nulla
-              repudiandae dicta nobis doloremque amet unde. Beatae at modi
-              nesciunt explicabo eum!" button={false} img={heroImage}/>
+            <HeroSection Title="Little Lemon" subTitle="Chicago" text="Secure your spot at Little Lemon for a cozy, unforgettable meal with Mediterranean flavors. Whether it's a special occasion or a casual night out, we’re here to make your dining experience memorable. Reserve today and enjoy a warm, inviting atmosphere!" button={false} img={heroImage}/>
             <ReservationFormSection/>
-            <InfoSection dark={true} title="Little Lemon" subText="Chicago" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."/>
+            <InfoSection dark={true} title="Little Lemon" subText="Chicago" text="Little Lemon is led by brothers Adryan and Mario, passionate about serving authentic Mediterranean dishes. Adryan specializes in seafood, while Mario adds a creative touch to salads and desserts."/>
             <Footer/>
         </>
     )
