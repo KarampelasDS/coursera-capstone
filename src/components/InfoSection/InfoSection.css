@@ -69,6 +69,13 @@
         margin-left: auto;
         max-width: 700px;
     }
+
+    .InfoParagraphDark{
+        text-align: center;
+        margin-left: auto;
+        max-width: 700px;
+    }
+    
     .InfoPhotos{
         margin-top: 6rem;
         justify-content: center;

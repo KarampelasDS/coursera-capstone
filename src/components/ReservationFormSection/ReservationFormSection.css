@@ -24,6 +24,10 @@
     margin: 1rem 0rem;
 }
 
+.error{
+    color:rgb(194, 52, 52);
+}
+
 .ReservationFormTitle{
     color: var(--white);
     border-bottom: 1px solid var(--white);
@@ -47,6 +51,13 @@
 }
 
 input{
+    width: 20rem;
+    border-radius: 4px;
+    padding:0.4rem;
+    border: 2px solid var(--black);
+}
+
+select{
     width: 20rem;
     border-radius: 4px;
     padding:0.4rem;
@@ -96,6 +107,10 @@ textarea{
     }
 
     input{
+        width: 15rem;
+    }
+
+    select{
         width: 15rem;
     }
 

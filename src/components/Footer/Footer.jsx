@@ -7,6 +7,8 @@ export default function Footer(props){
         <div className={props.dark ? "Footer" : "FooterLight"}>
             <img className="FooterImage" src={WorkerFooter}/>
             <div className={props.dark ? "FooterSection" : "FooterSectionLight"}>
+
+
                 <h6 className="FooterTitle">Doormat <br/> Navigation</h6>
                 <a href="#">Home</a>
                 <a href="#">About</a>
@@ -27,6 +29,8 @@ export default function Footer(props){
                 <a href="#">Phone Number</a>
                 <a href="#">Email</a>
             </div>
-        </div>
+
+
+                </div>
     );
 }

@@ -57,17 +57,9 @@
         margin-left: 1rem;
         margin-right: 1rem;
     }
-}
-
-@media only screen and (max-width:860px){
-    .Footer{
-        flex-direction: column;
-        
-    }
 
     .FooterLight{
-        flex-direction: column;
-        
+        flex-direction: row;
     }
 
     .FooterSection{
@@ -80,7 +72,12 @@
         align-self: center;
     }
 
+    .Footer{
+        flex-direction: row;
+        align-items: center;
+    }
+
     .FooterImage{
-        align-self: center;
+        display: none;
     }
 }
