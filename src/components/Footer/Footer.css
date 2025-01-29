@@ -7,6 +7,16 @@
     align-items: start;
 }
 
+.FooterLight{
+    display:flex;
+    background-color: var(--white);
+    justify-content:center;
+    padding-bottom:2rem;
+    padding-top:2rem;
+    align-items: start;
+    color: var(--dark-green);
+}
+
 .FooterTitle{
     font-weight: bold;
 }
@@ -19,8 +29,20 @@
     color: var(--white)
 }
 
+.FooterSectionLight{
+    display: flex;
+    flex-direction: column;
+    margin-left: 6rem;
+    margin-right: 6rem;
+    color: var(--black)
+}
+
 @media only screen and (max-width:1200px){
     .FooterSection{
+        margin-left: 3rem;
+        margin-right: 3rem;
+    }
+    .FooterSectionLight{
         margin-left: 3rem;
         margin-right: 3rem;
     }
@@ -28,6 +50,10 @@
 
 @media only screen and (max-width:860px){
     .FooterSection{
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .FooterSectionLight{
         margin-left: 1rem;
         margin-right: 1rem;
     }
@@ -39,7 +65,17 @@
         
     }
 
+    .FooterLight{
+        flex-direction: column;
+        
+    }
+
     .FooterSection{
+        margin-top: 2rem;
+        align-self: center;
+    }
+
+    .FooterSectionLight{
         margin-top: 2rem;
         align-self: center;
     }

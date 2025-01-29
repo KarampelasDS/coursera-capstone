@@ -2,11 +2,29 @@
     overflow-x: hidden;
 }
 
+.InfoBackground{
+    background-color: var(--white);
+}
+
+.InfoBackgroundDark{
+    background-color: var(--dark-green);
+}
+
 .InfoTitle{
     color: var(--black)
 }
 
+.InfoTitleDark{
+    color: var(--white)
+}
+
 .InfoCity{
+    margin-top:1.5rem;
+    font-size: 2rem;
+}
+
+.InfoCityDark{
+    color: var(--white);
     margin-top:1.5rem;
     font-size: 2rem;
 }
@@ -17,9 +35,16 @@
     max-width: 350px;
 }
 
-.InfoSection{
+.InfoParagraphDark{
+    color: var(--white);
+    font-size: 1.5rem;
     margin-top: 3rem;
-    margin-bottom:3rem;
+    max-width: 350px;
+}
+
+.InfoSection{
+    padding-top: 3rem;
+    padding-bottom:3rem;
 }
 
 .InfoPhotos{

@@ -1,0 +1,131 @@
+.ReservationSectionBackground{
+    background-image: url("../../assets/ReservationBackground.png");
+    background-size:contain;
+    background-repeat:round;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.ReservationForm{
+    display: inline-flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--dark-green);
+    border: 3px solid var(--black);
+    padding: 2rem;
+    border-radius: 16px;
+    margin: 2rem;
+}
+
+.FormSection{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 0rem;
+}
+
+.ReservationFormTitle{
+    color: var(--white);
+    border-bottom: 1px solid var(--white);
+    margin-bottom: 3rem;
+}
+
+.FormRow{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap:60px;
+}
+
+.FormSubmitButton{
+    background: var(--lemon-yellow);
+    color: var(--black);
+    font-weight: bold;
+    width: 16rem;
+    border: none;
+    height: 3rem;
+}
+
+input{
+    width: 20rem;
+    border-radius: 4px;
+    padding:0.4rem;
+    border: 2px solid var(--black);
+}
+
+textarea{
+    width: 44rem;
+    border: 2px solid var(--black);
+    border-radius: 4px;
+    resize: none;
+}
+
+.FormLabel{
+    color: var(--white);
+    font-size: 1.3rem;
+    font-weight:500;
+}
+
+.Notes{
+    margin-top: 3rem;
+}
+
+@media only screen and (max-width:860px){
+
+    .FormRow{
+        gap: 0.2rem;
+    }
+
+    textarea{
+        width:40rem;
+    }
+
+    .FormSubmitButton{
+        margin-top: 2rem;
+    }
+}
+
+@media only screen and (max-width:750px){
+
+    .FormRow{
+        gap: 1rem;
+    }
+
+    textarea{
+        width:31rem;
+    }
+
+    input{
+        width: 15rem;
+    }
+
+    .FormSubmitButton{
+        margin-top: 2rem;
+    }
+}
+
+
+@media only screen and (max-width:600px){
+    .FormRow{
+        flex-direction: column;
+        gap:0px;
+    }
+
+    .FormSection{
+        margin: 0;
+    }
+
+    textarea{
+        width:15rem;
+    }
+
+    .FormSubmitButton{
+        margin-top: 2rem;
+    }
+
+    .ReservationFormTitle{
+        color: var(--white);
+        border-bottom: 1px solid var(--white);
+        margin-bottom: 2rem;
+    }
+}

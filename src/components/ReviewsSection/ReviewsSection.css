@@ -1,6 +1,5 @@
 .ReviewsSection{
     background-color: var(--dark-green);
-    margin-top: 2rem;
     padding-top: 2rem;
     padding-bottom: 2rem;
 }
@@ -10,6 +9,10 @@
     text-align: center;
     color: var(--white);
 }
+
+.Reviews .slick-slider .slick-dots li button:before{
+    color:white !important;
+  }
 
 .Reviews{
     align-items: center;

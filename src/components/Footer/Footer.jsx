@@ -1,12 +1,12 @@
 import "./Footer.css"
 import WorkerFooter from "../../assets/WorkerFooter.png"
 
-export default function Footer(){
+export default function Footer(props){
     
     return(
-        <div className="Footer">
+        <div className={props.dark ? "Footer" : "FooterLight"}>
             <img className="FooterImage" src={WorkerFooter}/>
-            <div className="FooterSection">
+            <div className={props.dark ? "FooterSection" : "FooterSectionLight"}>
                 <h6 className="FooterTitle">Doormat <br/> Navigation</h6>
                 <a href="#">Home</a>
                 <a href="#">About</a>
@@ -15,13 +15,13 @@ export default function Footer(){
                 <a href="#">Order Online</a>
                 <a href="#">Login</a>
             </div>
-            <div className="FooterSection">
+            <div className={props.dark ? "FooterSection" : "FooterSectionLight"}>
                 <h6 className="FooterTitle">Contact <br/><br/></h6>
                 <a href="#">Address</a>
                 <a href="#">Phone Number</a>
                 <a href="#">Email</a>
             </div>
-            <div className="FooterSection">
+            <div className={props.dark ? "FooterSection" : "FooterSectionLight"}>
                 <h6 className="FooterTitle">Social Media Links <br/><br/></h6>
                 <a href="#">Address</a>
                 <a href="#">Phone Number</a>

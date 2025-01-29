@@ -1,6 +1,15 @@
+.ReviewsBackground{
+    background-color: var(--white);
+}
+
 .SpecialsTitle{
 color: var(--black);
 margin-bottom: 2rem;
+}
+
+.SpecialsSection{
+    padding-bottom:2rem;
+    padding-top:2rem;
 }
 
 
@@ -8,7 +17,6 @@ margin-bottom: 2rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 2rem 0rem;
 
 }
 
