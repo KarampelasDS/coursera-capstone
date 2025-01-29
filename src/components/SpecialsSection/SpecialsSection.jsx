@@ -41,7 +41,7 @@ export default function SpecialsSection() {
     <div className="container SpecialsSection">
       <div className=" SpecialsHeader">
           <h1 className="SpecialsTitle">This week's specials!</h1>
-          <Button>Online Menu</Button>
+          <Button link="/menu">Online Menu</Button>
       </div>
       <div className="row">
         <div className="col"></div>
