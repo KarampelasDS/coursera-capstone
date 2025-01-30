@@ -28,6 +28,10 @@
     color:rgb(194, 52, 52);
 }
 
+.FormRequired{
+    color:rgb(194, 52, 52);
+}
+
 .ReservationFormTitle{
     color: var(--white);
     border-bottom: 1px solid var(--white);

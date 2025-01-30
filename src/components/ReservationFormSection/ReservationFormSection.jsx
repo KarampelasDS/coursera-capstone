@@ -36,14 +36,14 @@ export default function ReservationFormSection() {
               <div className="FormRow">
                 <div className="FormSection">
                   <label className="FormLabel" for="FullName">
-                    Full Name
+                    Full Name <span className="FormRequired">*</span>
                   </label>
                   <input type="text" id="FullName" name="FullName" value={formik.values.FullName} onChange={formik.handleChange} onBlur={formik.handleBlur}/>
                   <div className="error">{formik.touched.FullName && formik.errors.FullName}</div>
                 </div>
                 <div className="FormSection">
                   <label className="FormLabel" for="FullName">
-                    Seat Selection
+                    Seat Selection <span className="FormRequired">*</span>
                   </label>
                   <select id="SeatSelection" name="SeatSelection" value={formik.values.SeatSelection} onChange={formik.handleChange}>
                     <option value="indoors">Indoors</option>
@@ -56,14 +56,14 @@ export default function ReservationFormSection() {
               <div className="FormRow">
                 <div className="FormSection">
                   <label className="FormLabel" for="Date">
-                    Date
+                    Date <span className="FormRequired">*</span>
                   </label>
                   <input type="date" id="Date" name="Date" value={formik.values.Date} onChange={formik.handleChange} />
                   <div className="error">{formik.touched.Date && formik.errors.Date}</div>
                 </div>
                 <div className="FormSection">
                   <label className="FormLabel" for="NumberOfGuests">
-                    Number of Guests
+                    Number of Guests <span className="FormRequired">*</span>
                   </label>
                   <input
                     type="number"
@@ -79,14 +79,14 @@ export default function ReservationFormSection() {
               <div className="FormRow">
                 <div className="FormSection">
                   <label className="FormLabel" for="Email">
-                    Email
+                    Email <span className="FormRequired">*</span>
                   </label>
                   <input type="text" id="Email" name="Email" value={formik.values.Email} onChange={formik.handleChange}/>
                   <div className="error">{formik.touched.Email && formik.errors.Email}</div>
                 </div>
                 <div className="FormSection">
                   <label className="FormLabel" for="PhoneNumber">
-                    Phone Number
+                    Phone Number <span className="FormRequired">*</span>
                   </label>
                   <input type="text" id="PhoneNumber" name="PhoneNumber" value={formik.values.PhoneNumber} onChange={formik.handleChange}/>
                   <div className="error">{formik.touched.PhoneNumber && formik.errors.PhoneNumber}</div>
