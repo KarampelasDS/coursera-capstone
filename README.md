@@ -1,4 +1,4 @@
-# Coursera Capstone Project
+# Little Lemon Restaurant Coursera Capstone Project
 
 This is a project for the Meta Frontend Developer Proffesional Certificate hosted on Coursera.
 
